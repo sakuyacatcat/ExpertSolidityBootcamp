@@ -14,7 +14,7 @@ contract Add {
         }
 
         assembly {
-            return(0x80, 0x32)
+            return(0x80, 0x20)
         }
     }
 }

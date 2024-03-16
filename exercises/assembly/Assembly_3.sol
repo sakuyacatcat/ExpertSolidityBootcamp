@@ -12,7 +12,7 @@ contract SubOverflow {
                 result := 0
             }
             mstore(0x80, result)
-            return(0x80, 0x32)
+            return(0x80, 0x20)
         }
     }
 }

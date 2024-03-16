@@ -15,7 +15,7 @@ contract Intro {
             // with command mstore(MEMORY_LOCATION, STACK_VARIABLE)
             mstore(0x80, x)
             // to return you need to specify address and the size from the starting point
-            return(0x80, 0x32)
+            return(0x80, 0x20)
         }
     }
 }
